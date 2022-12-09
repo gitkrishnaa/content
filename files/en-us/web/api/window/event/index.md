@@ -15,7 +15,7 @@ browser-compat: api.Window.event
 ---
 
 {{APIRef("DOM")}}{{Deprecated_Header}}
-
+this is krishna
 The read-only {{domxref("Window")}} property **`event`** returns the {{domxref("Event")}} which is currently being handled by the site's code. Outside the context of an event handler, the value is always `undefined`.
 
 You _should_ avoid using this property in new code, and should instead use the {{domxref("Event")}} passed into the event handler function. This property is not universally supported and even when supported introduces potential fragility to your code.
